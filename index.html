@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>visvuo Bio</title>
+  <title>Visionat Vuokattisk Bio</title>
 
   <link rel="stylesheet" href="style.css">
 </head>
@@ -13,243 +13,191 @@
 
   <main class="container">
 
-    <!-- HERO -->
+    <!-- PROFILE -->
 
-    <section class="hero-card">
+    <section class="profile-card">
 
-      <div class="hero-top">
+      <img
+        src="img/avatar.jpg"
+        alt="Avatar"
+        class="profile-avatar"
+      >
 
-        <img src="img/avatar.jpg" alt="Avatar" class="avatar">
+      <h1>visvuo</h1>
 
-        <div class="hero-info">
-
-          <span class="tag">
-            Isador Lehtonen | Visionat Vuokattisk
-          </span>
-
-          <h1>visvuo</h1>
-
-          <p class="subtitle">
-             I am Isador (A.K.A visvuo, Visionat Vuokattisk), a graphic designer,
-             IT administrator and Roblox builder.<br>
-             <br>
-             I work at the intersection of technology and visual design,
-             with a preference for minimalism and manual customization.<br>
-             <br>
-             I am currently a student majoring in System Administration (SA)
-             and I live in Samara, Russia.<br>
-             <br>
-             My personality type is INFJ-A 9w1.<br>
-             Calm, thoughtful and self-aware,
-             combining idealism with practicality
-             and a preference for harmony and inner order.
-         </p>
-
-        </div>
-
+      <div class="profile-meta">
+        @visvuo • Visionat Vuokattisk • RU,EN,FI
       </div>
 
-      <div class="hero-about">
+      <div class="profile-bio">
 
         <p>
-          mew :3 (Avatar art drawn by sufamura btw)
+          I am Isador, a graphic designer,
+          IT administrator and Roblox builder.
+        </p>
+
+        <p>
+          I work at the intersection of technology and visual design,
+          <br>
+          with a preference for minimalism and manual customization.
+        </p>
+
+        <p>
+          Personality Type: <a href="https://enneagramtest.com/blog/infj-9w1" target="_blank" rel="noopener noreferrer">INFJ-A 9w1. (clickable)</a>
         </p>
 
       </div>
 
-    </section>
+      <p class="profile-about">
+        Tuuli sammuttaa kynttilät, tähdet jäävät.
+      </p>
 
+    </section>
 
 
     <!-- TAB BUTTONS -->
 
-    <div class="tab-buttons">
+    <nav class="tab-buttons" aria-label="Profile sections">
 
-      <button class="tab-btn active" data-tab="skills">
-        Skills
-      </button>
-
-      <button class="tab-btn" data-tab="interests">
-        Interests
+      <button class="tab-btn active" data-tab="interests">
+        <span class="tab-icon">
+          <img src="img/interests.png" alt="">
+        </span>
+        <span>Passions</span>
       </button>
 
       <button class="tab-btn" data-tab="graphic-design">
-        Graphic Design
-      </button>
-
-      <button class="tab-btn" data-tab="devices">
-        Devices
+        <span class="tab-icon">
+          <img src="img/gd.png" alt="">
+        </span>
+        <span>Graphic<br>Designs</span>
       </button>
 
       <button class="tab-btn" data-tab="friends">
-        Friends
+        <span class="tab-icon">
+          <img src="img/friends.png" alt="">
+        </span>
+        <span>Friends</span>
       </button>
 
       <button class="tab-btn" data-tab="links">
-        Links
+        <span class="tab-icon">
+          <img src="img/links.png" alt="">
+        </span>
+        <span>Links</span>
       </button>
 
-    </div>
+    </nav>
 
 
-
-    <!-- TABS -->
+    <!-- TAB CONTENT -->
 
     <div class="tabs-wrapper">
 
-      <!-- SKILLS -->
-
-      <section class="tab-content active" id="skills">
-
-        <section class="grid">
-
-          <article class="card">
-
-            <div class="icon">⬢</div>
-
-            <h3>Roblox Studio</h3>
-
-            <p>
-              Building, GFX
-            </p>
-
-          </article>
-
-          <article class="card">
-
-            <div class="icon">⌘</div>
-
-            <h3>Programming Languages</h3>
-
-            <p>
-              Python, Luau, Bash
-            </p>
-
-          </article>
-
-          <article class="card">
-
-            <div class="icon">🏎</div>
-
-            <h3>Sim Racing</h3>
-
-            <p>
-              Competitive driving, racecraft, consistency, 
-              Roblox Formula V8 Racing Series Level 30+
-            </p>
-
-          </article>
-
-          <article class="card">
-
-            <div class="icon">⛶</div>
-
-            <h3>
-              <img src="img/vkompasthreedee.png" height="30" alt="KOMPAS 3D">
-            </h3>
-
-            <p>
-              I create building schematics and drawings, including architectural design and room layouts.
-            </p>
-
-          </article>
-
-        </section>
-
-      </section>
-
-
-
       <!-- INTERESTS -->
 
-      <section class="tab-content" id="interests">
+      <section class="tab-content active" id="interests">
 
         <section class="grid">
 
           <article class="card">
 
-            <div class="icon">◎</div>
+            <div class="icon">
+              <img src="img/intereststab1.png" alt="">
+            </div>
 
             <h3>Culture 2000–2014</h3>
 
             <p>
-              Retro era of the beginning of the digital age, 
-              a reflection of the aesthetics of early mass digital consumption
+              I like the Retro era of the beginning of the digital age,
+              a reflection of the aesthetics of early mass digital consumption.
             </p>
 
           </article>
 
           <article class="card">
 
-            <div class="icon">✦</div>
+            <div class="icon">
+              <img src="img/intereststab2.png" alt="">
+            </div>
 
             <h3>Anime</h3>
 
             <p>
-              Favorite:<br> 
-              Lucky Star, Miss Kobayashi's dragon maid, Nekopara<br>
+              Favorite: Nekopara, Lucky Star, Miss Kobayashi's Dragon Maid,
+              K-On!, Bocchi the Rock!
               <br>
               Favorite characters:<br>
               Nekopara: Vanilla (Main Fav), Chocola<br>
               Lucky Star: Konata Izumi<br>
               MKDM: Tohru Kobayashi, Kanna Kamui<br>
-
             </p>
 
           </article>
 
           <article class="card">
 
-            <div class="icon">◈</div>
+            <div class="icon">
+              <img src="img/intereststab3.png" alt="">
+            </div>
 
             <h3>Games</h3>
 
             <p>
-              i like playing games to relax.<br> 
-              Favorite: Roblox (Phantom Forces, Friday Night Bloxxin', Formula V8 Racing Roblox, Zombie Uprising, Dopey Fighers), Pixel Gun 3D
-            </p>
-
-          </article>
-
-          <article class="card">
-
-            <div class="icon">⌬</div>
-
-            <h3>System Administration</h3>
-
-            <p>
-              Idk, i like doing with servers but I'm still learning. >⩊<<br>
-              <br> 
-              Using: ORACLE Virtual Box, VMware Workstation
-            </p>
-
-          </article>
-
-          <article class="card">
-
-            <div class="icon">▣</div>
-
-            <h3>Windows/Linux</h3>
-
-            <p>
-              Favorite Windows: Vista, 7, 10, 11
+              I like playing games just to relax.
+              Favorite: Roblox, Pixel Gun 3D.
               <br>
-              Favorite linux: Debian, ARCH (Both only on XFCE)
+              <br>
+              Favorite roblox games:<br>
+              Greenville, Zombie Uprising, Phantom Forces, Friday Night Bloxxin', Formula V8 Racing Roblox
             </p>
 
           </article>
 
           <article class="card">
 
-            <div class="icon">🏎</div>
+            <div class="icon">
+              <img src="img/intereststab4.png" alt="">
+            </div>
 
-            <h3>Autosport (F1, Super Formula, Rally)</h3>
+            <h3>Graphic Design</h3>
 
             <p>
-              I like the 2000-2015 era of F1, of Rally: 1990-2014. 
-              Favorite drivers: Sebastian Vettel, Max Verstappen, Michael Schumacher, Kimi Räikkönen, Mika Häkkinen, Daniil Kvyat and Vitaly Petrov. 
-              Favorite team: Red Bull Racing. 
-              I also like Super Formula, Favorite Team: Red Bull Team Mugen.
+            I VERY LIKE TO DESIGN SMTH RLLY. I like creating cool stuff :D
+            <br>
+            Programs: Figma (for UI/UX, Infographic Design, etc.), Roblox studio (For Posing GFX)
+            <br>
+            Check "Graphic Designs" for more info.
+            </p>
+
+          </article>
+
+          <article class="card">
+
+            <div class="icon">
+              <img src="img/intereststab5.png" alt="">
+            </div>
+
+            <h3>Windows / Linux</h3>
+
+            <p>
+              Favorite Windows: Vista, 7, 10, 11<br>
+              Favorite Linux: Debian, Arch
+            </p>
+
+          </article>
+
+          <article class="card">
+
+            <div class="icon">
+              <img src="img/intereststab6.png" alt="">
+            </div>
+
+            <h3>Autosport</h3>
+
+            <p>
+              I watch F1, Super Formula and Rally.
+              Especially interested in the 2000–2015 Motorsports era.
             </p>
 
           </article>
@@ -259,12 +207,9 @@
       </section>
 
 
-
       <!-- GRAPHIC DESIGN -->
 
       <section class="tab-content" id="graphic-design">
-
-        <!-- DESCRIPTION -->
 
         <div class="card graphic-description">
 
@@ -280,141 +225,26 @@
             <br><br>
 
             All of this is done for personal creation and practice —
-            I do not take commissions.<br>
-            Examples of my work:
+            I do not take commissions.
           </p>
 
         </div>
 
+      <section class="gallery">
 
+        <div class="gallery-card project-item">
 
-        <!-- WORKS -->
+          <img
+            src="img/work1.png"
+            alt="Graphic design work"
+            class="portfolio-image"
+          >
 
-        <section class="gallery">
-
-          <div class="gallery-card project-item">
-
-            <img
-              src="img/work1.png"
-              alt="Graphic design work 1"
-              class="portfolio-image"
-            >
-
-            <hr>
-
-
-          </div>
-
-
-
-          <div class="gallery-card project-item">
-
-            <img
-              src="img/work2.jpg"
-              alt="Graphic design work 2"
-              class="portfolio-image"
-            >
-
-            <hr>
-
-
-          </div>
-
-        </section>
+        </div>
 
       </section>
 
-
-
-      <!-- DEVICES -->
-
-      <section class="tab-content" id="devices">
-
-        <section class="devices">
-
-          <div class="device-card">
-
-            <span class="device-label">
-              Laptop
-            </span>
-
-            <h3>Lenovo LOQ 15IAX9</h3>
-
-            <p>
-              Intel Core i5-12450HX • RTX 3050. Using With Xiaomi Redmi Monitor X27G (180 HZ, 1920×1080 Full HD, 27″)
-            </p>
-
-          </div>
-
-          <div class="device-card">
-
-            <span class="device-label">
-              Main Phone
-            </span>
-
-            <h3>Google Pixel 7</h3>
-
-            <p>8+256gb</p>
-
-          </div>
-
-          <div class="device-card">
-
-            <span class="device-label">
-              Main watches
-            </span>
-
-            <h3>Samsung Galaxy Watch 8 Classic</h3>
-
-            <p>cool watches actually. :D</p>
-
-          </div>
-
-          <div class="device-card">
-
-            <span class="device-label">
-              Photocamera
-            </span>
-
-            <h3>Canon EOS 550D</h3>
-
-            <p>
-              with Canon EF-S 18-55mm and Canon EF-S 55-250mm f/4.0-5.6 is II Telephoto Zoom Lenses.
-            </p>
-
-          </div>
-
-          <div class="device-card">
-
-            <span class="device-label">
-              Other phone's
-            </span>
-
-            <h3>vivo X200 12+512gb, iPhone 7 4/64gb, realme 11 Pro+ 8+256gb</h3>
-
-            <p>vivo X200 planning to sell with Pixel 7 to buy Pixel 9 Pro after college. Others phone's to sell.</p>
-            </p>
-
-          </div>
-
-          <div class="device-card">
-
-            <span class="device-label">
-              Gadgets | Accessories
-            </span>
-
-            <h3>vivo buds EU, JBL Tune 520BT, JBL Flip 6, ULANZI CapGrip II</h3>
-
-             <p>Maybe i will get Google Pixel Buds.</p>
-
-            </p>
-
-          </div>
-
-        </section>
-
       </section>
-
 
 
       <!-- FRIENDS -->
@@ -431,10 +261,10 @@
               class="friend-avatar"
             >
 
-            <h3>Salvador. | sufamura ⏾</h3>
+            <h3>Salvador. ✶</h3>
 
             <p>
-              My very best friend (˶>⩊<˶)
+              My very best friend (˶&gt;⩊&lt;˶)
             </p>
 
           </article>
@@ -447,7 +277,7 @@
               class="friend-avatar"
             >
 
-            <h3>yavasily ⏾</h3>
+            <h3>yavasily ✶</h3>
 
             <p>
               Close friend (˶˃ ᵕ ˂˶)
@@ -455,11 +285,7 @@
 
           </article>
 
-          <a
-            href="https://t.me/everrnyans"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
+          <article class="card friend-card">
 
             <img
               src="img/friendavatar1.jpg"
@@ -467,19 +293,13 @@
               class="friend-avatar"
             >
 
-            <h3>everrnyan ★</h3>
+            <h3>sonya ★</h3>
 
-            <p>
-              t.me/everrnyans
-            </p>
+            <p>67</p>
 
-          </a>
+          </article>
 
-          <a
-            href="https://t.me/shijaciHI"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
+          <a href="https://t.me/shijaciHI" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
 
             <img
               src="img/friendavatar8.png"
@@ -489,129 +309,35 @@
 
             <h3>shijaci ★</h3>
 
-            <p>
-              t.me/shijaciHI
-            </p>
+            <p>t.me/shijaciHI</p>
 
           </a>
 
-          <a
-            href="https://t.me/kerrysfanmades"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
+          <article class="card friend-card">
 
             <img
-              src="img/friendavatar3.jpg"
-              alt="kerryfrarey"
+              src="img/friendavatar9.png"
+              alt="waimdss"
               class="friend-avatar"
             >
 
-            <h3>Kerry Frarey ✦</h3>
+            <h3>waimdss ★</h3>
 
-            <p>
-              t.me/kerrysfanmades
-            </p>
+            <p>fluffy guy</p>
 
-          </a>
+          </article>
 
-          <a
-            href="https://t.me/berdnikbio"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
+          <a href="https://linktr.ee/xpym4ik" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
 
             <img
-              src="img/friendavatar4.jpg"
-              alt="berdnikoff"
+              src="img/friendavatar10.jpg"
+              alt="xpym4ik"
               class="friend-avatar"
             >
 
-            <h3>Mr.Berdnikoff ✦</h3>
+            <h3>xpym4ik ✦</h3>
 
-            <p>
-              t.me/berdnikbio
-            </p>
-
-          </a>
-
-          <a
-            href="https://themomer.ru"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
-
-            <img
-              src="https://themomer.ru/img/avatar.jpg"
-              alt="m1lkydev"
-              class="friend-avatar"
-            >
-
-            <h3>m1lkydev</h3>
-
-            <p>
-              themomer.ru
-            </p>
-
-          </a>
-
-          <a
-            href="https://iamcocoa.codeberg.page/"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
-
-            <img
-              src="img/friendavatar2.jpg"
-              alt="iamcocoa"
-              class="friend-avatar"
-            >
-
-            <h3>iamcocoa ✦</h3>
-
-            <p>
-              iamcocoa.codeberg.page
-            </p>
-
-          </a>
-
-          <a
-            href="https://marshalldtrv.github.io/marshall-bio/"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
-
-            <img
-              src="img/friendavatar6.jpg"
-              alt="marshalldtrv"
-              class="friend-avatar"
-            >
-
-            <h3>Marshall ✦</h3>
-
-            <p>
-              marshalldtrv.github.io/marshall-bio
-            </p>
-
-          </a>
-
-          <a
-            href="https://t.me/hllctbio"
-            target="_blank"
-            class="card friend-card friend-link"
-          >
-
-            <img
-              src="img/friendavatar5.jpg"
-              alt="hellcatDN"
-              class="friend-avatar"
-            >
-
-            <h3>hellcatDN ✦</h3>
-
-            <p>
-              t.me/hllctbio
-            </p>
+            <p>linktr.ee/xpym4ik</p>
 
           </a>
 
@@ -625,18 +351,115 @@
 
             <h3>miracleteaparty ★</h3>
 
-            <p>
-              cool person! :D
-            </p>
+            <p>cool person! :D</p>
 
           </article>
 
+          <a href="https://en.wikipedia.org/wiki/Bank_of_Moscow" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="img/tashkov.jpg"
+              alt="t4sh"
+              class="friend-avatar"
+            >
+
+            <h3>Andrew Tashkov / t4sh ★</h3>
+
+            <p>www.bm.ru</p>
+
+          </article>
+
+          <a href="https://t.me/kerrysfanmades" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="img/friendavatar3.jpg"
+              alt="kerryfrarey"
+              class="friend-avatar"
+            >
+
+            <h3>Kerry Frarey ✦</h3>
+
+            <p>t.me/kerrysfanmades</p>
+
+          </a>
+
+          <a href="https://t.me/berdnikbio" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="img/friendavatar4.jpg"
+              alt="berdnikoff"
+              class="friend-avatar"
+            >
+
+            <h3>Mr.Berdnikoff ✦</h3>
+
+            <p>t.me/berdnikbio</p>
+
+          </a>
+
+          <a href="https://themomer.ru" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="https://themomer.ru/img/avatar.jpg"
+              alt="m1lkydev"
+              class="friend-avatar"
+            >
+
+            <h3>m1lkydev</h3>
+
+            <p>themomer.ru</p>
+
+          </a>
+
+          <a href="https://iamcocoa.codeberg.page/" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="img/friendavatar2.jpg"
+              alt="iamcocoa"
+              class="friend-avatar"
+            >
+
+            <h3>iamcocoa ✦</h3>
+
+            <p>iamcocoa.codeberg.page</p>
+
+          </a>
+
+          <a href="https://marshalldtrv.github.io/marshall-bio/" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="img/friendavatar6.jpg"
+              alt="marshalldtrv"
+              class="friend-avatar"
+            >
+
+            <h3>Marshall ✦</h3>
+
+            <p>marshalldtrv.github.io/marshall-bio</p>
+
+          </a>
+
+          <a href="https://t.me/hllctbio" target="_blank" rel="noopener noreferrer" class="card friend-card friend-link">
+
+            <img
+              src="img/friendavatar5.jpg"
+              alt="hellcatDN"
+              class="friend-avatar"
+            >
+
+            <h3>hellcatDN ✦</h3>
+
+            <p>t.me/hllctbio</p>
+
+          </a>
+
         </section>
+
 
         <div class="friends-note">
 
           <p>
-            ⏾ — someone especially close to me<br>
+            ✶ — someone especially close to me<br>
             ★ — highlighted friend I talk to often<br>
             ✦ — highlighted friend
             <br><br>
@@ -651,15 +474,16 @@
 
       </section>
 
+
       <!-- LINKS -->
 
       <section class="tab-content" id="links">
 
         <section class="grid">
 
-          <a href="https://t.me/+txRmk6TTrhQ0MTgy" target="_blank" class="card link-card">
+          <a href="https://t.me/+txRmk6TTrhQ0MTgy" target="_blank" rel="noopener noreferrer" class="card link-card">
 
-            <img src="img/vvchannel.png" height="45" alt="channel">
+            <img src="img/vvchannel.png" alt="channel">
 
             <p>
               My own channel with thoughts, creativity, tech and a little bit of everyday life.
@@ -667,11 +491,9 @@
 
           </a>
 
+          <a href="https://t.me/visio_tg" target="_blank" rel="noopener noreferrer" class="card link-card">
 
-
-          <a href="https://t.me/visio_tg" target="_blank" class="card link-card">
-
-            <img src="img/visio_tg.png" height="45" alt="visio tg">
+            <img src="img/visio_tg.png" alt="visio tg">
 
             <p>
               Card of my own project.
@@ -679,14 +501,12 @@
 
           </a>
 
+          <a href="https://t.me/visionews_tg" target="_blank" rel="noopener noreferrer" class="card link-card">
 
-
-          <a href="https://t.me/visionews_tg" target="_blank" class="card link-card">
-
-            <img src="img/visiofi_tg.png" height="45" alt="news">
+            <img src="img/visiofi_tg.png" alt="news">
 
             <p>
-              Finland's neutral news channel in Russian language
+              Finland's neutral news channel in Russian language.
             </p>
 
           </a>
@@ -695,39 +515,30 @@
 
       </section>
 
+    </div>
+
 
     <!-- FOOTER -->
 
     <footer>
 
-      <!-- TOP ROW -->
-
       <div class="footer-row">
 
-        <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank">
-
+        <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages" target="_blank" rel="noopener noreferrer">
           <img
             src="img/hostedbygithub.png"
             alt="Hosted by GitHub Pages"
             class="lower-img"
           >
-
         </a>
 
-
-
-        <a
-          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
-          target="_blank"
-        >
-
+        <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer">
           <img
             src="img/js.png"
             alt="Page contains JavaScript!"
             title="Page contains JavaScript!"
             class="lower-img"
           >
-
         </a>
 
       </div>
@@ -735,8 +546,6 @@
     </footer>
 
   </main>
-
-
 
   <script src="script.js"></script>
 
