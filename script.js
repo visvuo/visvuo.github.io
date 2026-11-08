@@ -22,3 +22,17 @@ buttons.forEach(button => {
 
   });
 });
+
+
+// IMAGE PROTECTION
+document.querySelectorAll("img").forEach(image => {
+
+  image.addEventListener("contextmenu", event => {
+    event.preventDefault();
+  });
+
+  image.addEventListener("dragstart", event => {
+    event.preventDefault();
+  });
+
+});

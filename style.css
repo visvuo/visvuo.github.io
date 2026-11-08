@@ -700,3 +700,54 @@ footer {
   color: inherit;
   text-decoration: none;
 }
+
+/* MD3 LINKS BUTTON */
+.tab-btn[data-tab="links"] {
+  grid-column: 1 / -1;
+  justify-self: center;
+
+  width: auto;
+  min-width: 122px;
+  min-height: 56px;
+
+  padding: 11px 16px;
+  justify-content: center;
+  text-align: center;
+
+  border-radius: 20px;
+  background: #0A3A61;
+  color: #ffffff;
+
+  transition: var(--transition);
+}
+
+.tab-btn[data-tab="links"] .tab-icon {
+  background: #15517A;
+}
+
+.tab-btn[data-tab="links"]:hover {
+  background: #0B4778;
+}
+
+.tab-btn[data-tab="links"].active {
+  background: #B5DCFF;
+  color: #00315C;
+}
+
+.tab-btn[data-tab="links"].active .tab-icon {
+  background: #073A64;
+}
+
+.friends-disclaimer {
+  margin-top: 12px;
+  margin-bottom: 12px;
+
+  color: rgba(255,255,255,0.65);
+  font-size: 12px;
+  line-height: 1.6;
+}
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
